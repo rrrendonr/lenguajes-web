@@ -1,0 +1,46 @@
+:root {
+    //font size
+    --biggest-font-size: 8rem;
+    --bigger-font-size: 5.6rem;
+    --big-font-size: 4rem;
+    --h1-font-size: 3rem;
+    --h2-font-size: 2rem;
+    --h3-font-size: 1.8rem;
+    --normal-font-size: 1.6rem;
+    --small-font-size: 1.3rem;
+    --smaller-font-size: 1.2rem;
+    --text-line-height: 3.2rem;
+
+    //Colors
+    --contrast-color: #fff;
+    --accent-color: #3fb19a;
+    --first-color-light: #4cceb4;
+    --first-color-lighten: #5de7cc;
+    --primary-color: #222327;
+    --linear-gradient: linear-gradient(180deg, rgba(26,188,156,1) 0%, rgba(11,142,116,1) 100%);
+
+    //fuentes & tamaño
+    --body-font: "Poppins", sans-serif;
+    --second-font: "Roboto";
+
+    --font-light: 200;
+    --font-regular: 300;
+    --font-strong: 500;
+    --font-bold: 700;
+
+    //z index
+    --z-fixed: 100;
+}
+
+@media screen and (min-width: 40rem) {
+    :root {
+        --biggest-font-size: 12rem;
+        --bigger-font-size: 7.2rem;
+        --big-font-size: 6.4rem;
+        --h1-font-size: 3.6rem;
+        --h2-font-size: 2.4rem;
+        --h3-font-size: 2rem;
+        --small-font-size: 1.4rem;
+        --smaller-font-size: 1.3rem;
+        }
+}
